@@ -1,4 +1,3 @@
-// src/components/StatueInfo.js
 import React from 'react';
 
 function StatueInfo() {

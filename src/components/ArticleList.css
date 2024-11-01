@@ -1,0 +1,37 @@
+.article-container {
+    padding: 20px;
+    background-color: #f5f0e1; /* Fundo sépia claro */
+    font-family: 'Georgia', serif; /* Fonte clássica */
+  }
+  
+  .titulo-article {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #4b3f2f; /* Marrom suave */
+  }
+  
+  .article-card {
+    border: 2px solid #4b3f2f; /* Borda marrom */
+    background-color: #ffffff; /* Fundo branco para o card */
+    transition: transform 0.2s;
+  }
+  
+  .article-card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  }
+  
+  .article-card img {
+    height: 200px; /* Altura fixa para a imagem */
+    object-fit: cover; /* Corta a imagem para se ajustar ao card */
+  }
+  
+  .article-card .card-title {
+    font-weight: bold;
+    color: #85603f; /* Tom marrom mais escuro */
+  }
+  
+  .article-card .card-text {
+    color: #555; /* Texto em cinza suave */
+  }
+  

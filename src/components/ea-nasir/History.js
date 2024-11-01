@@ -1,4 +1,3 @@
-// src/components/History.js
 import React from 'react';
 
 function History() {
