@@ -1,12 +1,21 @@
+// StatueInfo.js
+
 import React from 'react';
 
-function StatueInfo() {
-   return (
-      <section style={{ padding: '2rem', backgroundColor: '#D8BFD8' }}>
-         <h2>A Estátua Famosa</h2>
-         <p>A imagem popular de Ea-Nasir vem de uma estátua mesopotâmica, mas não há evidências de que esta seja realmente sua representação. A estátua representa uma figura suméria genérica, mas virou símbolo do “caloteiro” histórico.</p>
-      </section>
-   );
-}
+const StatueInfo = () => {
+    return (
+        <section className="statue-section">
+            <h2>Quem é a estátua?</h2>
+            <p>
+                A famosa estátua associada a Ea-Nasir, na realidade, é um tipo
+                de estátua religiosa chamada "adorador". Os olhos esbugalhados
+                e as mãos juntas dão essa característica.
+                Os adoradores eram estátuas que representavam humanos e eram
+                colocadas na frente da estátua de um deus, como se fosse uma 
+                imagem do adorador em devoção àquele deus.
+            </p>
+        </section>
+    );
+};
 
 export default StatueInfo;

@@ -5,7 +5,7 @@ import History from './components/ea-nasir/History';
 import StatueInfo from './components/ea-nasir/StatueInfo';
 import Gallery from './components/ea-nasir/Gallery';
 import Footer from './components/ea-nasir/Footer';
-import './index.css';
+import './Article.css';
 
 function App() {
    return (

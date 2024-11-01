@@ -1,12 +1,17 @@
-import React from 'react';
+// Header.js
 
-function Header() {
-   return (
-      <header style={{ backgroundColor: '#8B4513', color: '#fff', padding: '1rem' }}>
-         <h1>O Primeiro Caloteiro da História: Ea-Nasir</h1>
-         <p>Descubra a fascinante história do "caloteiro" sumério que ficou famoso milhares de anos depois.</p>
-      </header>
-   );
-}
+import React from 'react';
+import './Header.css';
+
+const Header = () => {
+    return (
+        <header className="header">
+            <div className="header-text">
+                <h1>Quem foi Ea-Nasir?</h1>
+                <p style={{color: 'white'}}>O primeiro caloteiro registrado na história</p>
+            </div>
+        </header>
+    );
+};
 
 export default Header;

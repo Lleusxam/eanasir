@@ -1,12 +1,18 @@
+// History.js
+
 import React from 'react';
 
-function History() {
-   return (
-      <section style={{ padding: '2rem', backgroundColor: '#EDE5C8' }}>
-         <h2>História das Tábuas</h2>
-         <p>As tábuas de argila, descobertas em escavações na Mesopotâmia, documentam as queixas dos clientes de Ea-Nasir. Uma delas descreve a reclamação de um cliente chamado Nanni, insatisfeito com a qualidade do cobre fornecido.</p>
-      </section>
-   );
-}
+const History = () => {
+    return (
+        <section className="history-section">
+            <h2>Como sabemos sobre ele?</h2>
+            <p>
+                A história de Ea-Nasir foi descoberta em uma tabuinha de argila
+                que datava de cerca de 1750 a.C., onde um cliente chamado Nanni expressava
+                sua frustração por não ter recebido o cobre prometido.
+            </p>
+        </section>
+    );
+};
 
 export default History;

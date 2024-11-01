@@ -1,12 +1,19 @@
+// About.js
+
 import React from 'react';
 
-function About() {
-   return (
-      <section style={{ padding: '2rem', backgroundColor: '#F5F5DC' }}>
-         <h2>Quem foi Ea-Nasir?</h2>
-         <p>Era um comerciante sumério, conhecido por vender cobre de baixa qualidade. Graças às tábuas de argila que sobreviveram ao tempo, ele é considerado um dos primeiros “caloteiros” da história.</p>
-      </section>
-   );
-}
+const About = () => {
+    return (
+        <section className="about-section">
+            <h2>Quem é Ea-Nasir?</h2>
+            <p>
+                Ea-Nasir foi um comerciante da antiga Mesopotâmia, famoso por ser o
+                primeiro caloteiro registrado na história. Ele ficou conhecido por
+                ter enganado um cliente ao não entregar a mercadoria combinada.
+            </p>
+            <img src="link-para-imagem-do-ea-nasir.jpg" alt="Ea-Nasir" />
+        </section>
+    );
+};
 
 export default About;
