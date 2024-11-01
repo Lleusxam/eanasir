@@ -1,0 +1,29 @@
+/* Background e borda */
+.vintage-navbar {
+    background-color: #f5f0e1; /* tom sépia claro */
+    border-bottom: 2px solid #4b3f2f; /* borda marrom */
+  }
+  
+  /* Estilo do título e links */
+  .navbar-brand-vintage, .nav-link-vintage {
+    font-family: 'Georgia', serif; /* fonte clássica */
+    font-weight: bold;
+    color: #4b3f2f !important; /* marrom suave */
+    transition: color 0.3s;
+  }
+  
+  /* Efeito hover */
+  .nav-link-vintage:hover, .navbar-brand-vintage:hover {
+    color: #85603f !important; /* tom marrom mais escuro */
+    text-decoration: underline;
+  }
+  
+  /* Responsividade */
+  .vintage-navbar .navbar-toggler {
+    border-color: #4b3f2f;
+  }
+  
+  .vintage-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234b3f2f' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%2845, 45, 45, 0.7%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  

@@ -1,0 +1,31 @@
+/* Fundo e cores */
+.bg-antique {
+    background-color: #f5f0e1; /* tom sépia claro */
+  }
+  
+  .text-antique {
+    color: #4b3f2f; /* marrom suave */
+  }
+  
+  /* Tipografia e espaçamento */
+  body {
+    font-family: 'Georgia', serif; /* fonte clássica */
+    color: #4b3f2f;
+    background-color: #f5f0e1;
+  }
+  
+  h1, .display-4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4b3f2f;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    color: #4b3f2f;
+  }
+  
+  .lead {
+    font-style: italic;
+  }
+  
